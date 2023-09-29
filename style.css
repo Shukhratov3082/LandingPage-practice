@@ -1,0 +1,256 @@
+@import url(fonts/Montserrat-Italic-VariableFont_wght.ttf);
+@import url(fonts/static/Montserrat-Bold.ttf);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0 60px;
+}
+
+.head-section {
+  width: 100%;
+  position: relative;
+}
+.head-section .shahar {
+  width: 55%;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  right: -60px;
+  z-index: -1;
+}
+.head-section header {
+  height: 69px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 2;
+}
+.head-section header nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  text-transform: uppercase;
+}
+.head-section header nav a:first-child {
+  display: flex;
+  gap: 10px;
+}
+.head-section header nav a {
+  text-decoration: none;
+  color: rgb(1, 13, 20);
+  font-size: 16px;
+  margin: 20px 15px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+.head-section header .link-btn {
+  width: 300px;
+  display: flex;
+  gap: 15px;
+}
+.head-section header .link-btn button {
+  height: 60px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: rgb(1, 13, 20);
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  border: none;
+}
+.head-section header .link-btn .login {
+  padding: 19px 15px;
+  background: none;
+}
+.head-section header .link-btn .getStart {
+  padding: 15px 30px;
+  background-color: rgb(3, 40, 60);
+  color: white;
+}
+.head-section .center-head {
+  display: flex;
+  min-height: 714px;
+  position: relative;
+}
+.head-section .center-head .right {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  width: 40%;
+}
+.head-section .center-head .right h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 19px;
+  font-weight: 700;
+  color: rgb(8, 105, 158);
+}
+.head-section .center-head .right h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 62px;
+  margin: 10px 0 25px 0;
+  color: rgb(3, 40, 60);
+}
+.head-section .center-head .right h1 span {
+  font-weight: 700;
+  color: rgb(255, 98, 0);
+}
+.head-section .center-head .right .btns {
+  display: flex;
+}
+.head-section .center-head .right .btns button {
+  border: none;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+.head-section .center-head .right .btns button:first-child {
+  padding: 15px 82.5px;
+  background-color: rgb(3, 40, 60);
+  color: white;
+}
+.head-section .center-head .right .btns button:last-child {
+  padding: 15px 20px;
+  background: none;
+  color: rgb(3, 40, 60);
+}
+
+.box-section .totals {
+  width: 100%;
+  display: flex;
+  padding: 50px 0;
+  justify-content: center;
+}
+.box-section .totals div {
+  display: block;
+  text-align: center;
+}
+.box-section .totals div h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+  color: rgb(3, 40, 60);
+}
+.box-section .totals .chiziq {
+  width: 100px;
+}
+.box-section .totals .chiziq::before {
+  content: "";
+  position: absolute;
+  border: 2px solid black;
+  height: 49px;
+}
+.box-section .current {
+  padding: 50px 15px;
+}
+.box-section .current .name-current {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.box-section .current .name-current h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 59px;
+  color: rgb(3, 40, 60);
+}
+.box-section .current .name-current p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+}
+.box-section .current .center-box {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 300px);
+  gap: 30px;
+}
+.box-section .current .center-box .boxs {
+  width: 300px;
+  height: 379px;
+}
+.box-section .current .center-box .boxs .top {
+  height: 43%;
+  background-color: gray;
+}
+.box-section .current .center-box .boxs .bottom {
+  height: 60%;
+}
+.box-section .current .center-box .boxs .bottom .bottom-center {
+  padding: 15px;
+}
+.box-section .current .center-box .boxs .bottom .bottom-center div {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.box-section .current .center-box .boxs .bottom .bottom-center div h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+}
+.box-section .current .center-box .boxs .bottom .bottom-center p {
+  margin: 15px 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.box-section .current .center-box .boxs .bottom .btn-hover {
+  width: 100%;
+  height: 60px;
+  position: relative;
+}
+.box-section .current .center-box .boxs .bottom .btn-hover button {
+  width: 20%;
+  height: 100%;
+  border: none;
+  right: 0;
+  position: absolute;
+  overflow: hidden;
+  transition: 0.3s;
+  background: rgb(214, 239, 253);
+}
+.box-section .current .center-box .boxs .bottom .btn-hover button:hover {
+  width: 100%;
+}
+.box-section .current .center-box .boxs .bottom .btn-hover button:hover .btn-strelka {
+  transform: rotate(0);
+}
+.box-section .current .center-box .boxs .bottom .btn-hover button::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 60px;
+  height: 60px;
+  background: rgb(214, 239, 253);
+}
+.box-section .current .center-box .boxs .bottom .btn-hover button span {
+  width: 91px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  position: absolute;
+  z-index: 10;
+  top: 23px;
+  right: 59px;
+}
+.box-section .current .center-box .boxs .bottom .btn-hover .btn-strelka {
+  position: absolute;
+  transition: 0.3s;
+  top: 20px;
+  right: 18px;
+  width: 24px;
+  height: 24px;
+  transform: rotate(-45deg);
+  z-index: 10;
+}/*# sourceMappingURL=style.css.map */
