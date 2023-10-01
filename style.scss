@@ -1,18 +1,16 @@
 $btn-color: rgba(3, 40, 60, 1);
-@import url(fonts/Montserrat-Italic-VariableFont_wght.ttf);
-@import url(fonts/static/Montserrat-Bold.ttf);
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    padding: 0 60px;
-}
+
 .head-section{
     width: 100%;
     position: relative;
+    padding: 0 60px;
+
     .shahar{    
         width: 55%;
         position: absolute;
@@ -126,6 +124,8 @@ body{
   
 }
 .box-section{
+    padding: 0 75px;
+
     .totals{
         width: 100%;
         display: flex;
@@ -153,7 +153,7 @@ body{
         }
     }
     .current{
-        padding: 50px 15px;
+        padding-top: 50px;
         .name-current{  
             text-align: center;
             margin-bottom: 50px;
@@ -186,7 +186,7 @@ body{
                 .bottom{
                     height: 60%;
                     .bottom-center{
-                        padding: 15px;
+                        padding: 15px 15px 0 15px;
                         div{
                             display: flex;
                             gap: 10px;
@@ -260,6 +260,216 @@ body{
                         }
                     }
                 }
+
+            }
+        }
+       
+    }
+    span{
+        display: block;
+        text-align: center;
+        margin: 50px 0 92px 0;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 22px;
+        letter-spacing: 0.30000001192092896px;
+
+    }
+}
+.about-section{
+    .ourVision{
+        height: 299px;
+        background-color: $btn-color;
+        padding: 80px 270px;
+        text-align: center;
+        color: white;
+        h1{
+            font-family: 'Montserrat', sans-serif;
+            font-size: 48px;
+            font-weight: 700;
+            line-height: 59px;
+        }
+        p{
+            font-family: 'Montserrat', sans-serif;
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 36px;
+        }
+    }
+    .about-we{
+        display: flex;
+        align-items: center;
+        min-height: 918px;
+        justify-content: space-between;
+        padding: 0 0 0 60px;
+        overflow: hidden;
+        position: relative;
+        div{
+            width: 39%;
+            h2{
+                font-family: 'Montserrat', sans-serif;
+                font-size: 48px;
+                font-weight: 700;
+                line-height: 40px;
+                letter-spacing: 0.10000000149011612px;      
+                color: $btn-color;  
+                text-transform: capitalize;
+            }
+            p{
+                margin-top: 15px;
+                font-family: 'Montserrat', sans-serif;
+                font-size: 16px;
+                font-weight: 300;
+                line-height: 22px;
+                letter-spacing: 0.30000001192092896px;
+            }
+        }
+        img{
+            position: absolute;
+            right: 0;
+        }
+    }
+    .weDo{
+        padding: 80px 76px;
+        min-height: 485px;
+        text-align: center;
+        background: $btn-color;
+        color: #fff;
+        h1{
+            font-family: 'Montserrat', sans-serif;
+            font-size: 48px;
+            font-weight: 700;
+            line-height: 59px;       
+        }
+        p{
+            font-family: 'Montserrat', sans-serif;
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 20px;  
+            margin: 15px 0 60px 0;
+        }
+        div{
+            display: flex;
+            justify-content: space-between;
+            .weDo-boxs{
+                display: inline-block;
+                text-align: start;
+                color: #000;
+                background: #fff;
+                width: 380px;
+                height: 171px;
+                border-top: 6px solid rgba(255, 98, 0, 1);
+                padding: 38px 35px;
+                h2{
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: 20px;
+                    font-weight: 600;
+                    line-height: 24px;
+                }
+                p{
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: 16px;
+                    font-weight: 300;
+                    line-height: 22px;
+                    letter-spacing: 0.30000001192092896px;
+
+                }
+            }
+        }
+    }
+}
+.about-section2{
+    .security{
+        padding: 189px 0 230px 80px;
+        display: flex;
+        position: relative;
+        div{
+            width: 40%;
+                h2{
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: 48px;
+                    font-weight: 700;
+                    line-height: 59px;
+                }
+                p{
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: 16px;
+                    font-weight: 300;
+                    line-height: 22px;
+                    padding: 15px 0;
+                }
+                button{
+                    width: 266px;
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: 18px;
+                    font-weight: 700;
+                    height: 52px;
+                    padding: 15px, 30px, 15px, 30px;
+                    background: rgba(255, 98, 0, 1);
+                    border: none;
+                    color: white;
+                    text-transform: uppercase;
+                }
+        }
+        img{
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+    }
+    .benefits{
+        min-height:  654px;
+        background: $btn-color;
+        position: relative;
+        color: #fff;
+        padding: 80px 76px;
+        h2{
+            font-family: 'Montserrat', sans-serif;
+            font-size: 48px;
+            font-weight: 700;
+            line-height: 59px;     
+        }
+        p{
+            font-family: 'Montserrat', sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 20px; 
+            margin: 15px 0 80px 0; 
+        }
+        .shadow{
+            width: 629px;
+            height: 392px;
+            background: rgba(8, 105, 158, 0.4);
+            opacity: 0.5;
+            filter: blur(100px);
+            position: absolute;
+            left: -94px;
+        }
+        .benefit-container{
+            display: flex;
+            justify-content: space-between;
+        }
+        .benefit-boxs{
+            width: 300px;
+            height: 300px;
+            padding: 35px 30px;
+            border-top: 6px solid rgba(255, 98, 0, 1);
+            background: #fff;
+            color: #000;
+            h3{
+                font-family: 'Montserrat', sans-serif;
+                font-size: 20px;
+                font-weight: 600;
+                line-height: 24px;
+                margin: 35px 0 8px 0;
+            }
+            p{
+                font-family: 'Montserrat', sans-serif;
+                font-size: 16px;
+                font-weight: 300;
+                line-height: 22px;
+
 
             }
         }
